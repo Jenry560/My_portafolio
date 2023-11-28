@@ -13,7 +13,7 @@ export default function Navbar (){
     return(
         <nav>
            {!view &&  <div>
-                <h1>&lt;J&gt;</h1>
+                <h1><a href="/" style={{textDecoration: 'none', color: 'white'}}>&lt;J&gt; </a></h1>
             </div> }
 
            <ul  onClick={ view ? showMenu : null} className={view ? "nav_items nav_items_menu" : "nav_items"}>
