@@ -20,7 +20,7 @@ export default function About (){
                 <div className="about_text">
                   <h1>About</h1>
                    <p>¡Hey there! Welcome to my Portfolio 🖐️ </p>
-                   <p>Full-stack developer and software development technician student with over 2 years of freelance experience. Continuously evolving and always learning. Actively seeking job opportunities.</p>
+                   <p>Passionate Full-stack Developer and aspiring Software Development Technician with a dynamic background encompassing over 2 years of thriving freelance ventures. A perpetual learner committed to staying at the forefront of technology trends. Eagerly pursuing exciting job opportunities to contribute innovative solutions and elevate projects to new heights.</p>
                 </div>
               
                 <img src="/coding.svg" alt="svg for the about" className="svg"/>
