@@ -16,7 +16,7 @@ const el = React.useRef(null);
       strings: ['Hi my name is Jenry Sanchez', 'Junior-Developer'],
       smartBackspace: true,
       typeSpeed: 75,
-      startDelay: 300,
+      startDelay: 100,
       backDelay: 800,
       backSpeed: 75,
       loop: true,

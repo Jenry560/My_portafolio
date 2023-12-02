@@ -62,7 +62,7 @@ nav ul li a:hover{
     align-items: center;
     flex-direction: column;
     opacity: 0;
-    animation: add 2s ease 1.5s forwards;
+    animation: add 2s ease .8s forwards;
     
 }
 
