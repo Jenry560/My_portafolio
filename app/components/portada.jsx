@@ -22,8 +22,7 @@ const el = React.useRef(null);
       loop: true,
       loopCount: false,
       showCursor: true,
-      cursorChar: '|',
-      smartBackspace: true
+      cursorChar: '|'
     });
 
     return () => {
