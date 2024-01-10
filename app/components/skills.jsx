@@ -78,7 +78,7 @@ export default function Skills (){
                     </div> 
 
                     <div>     
-                    <img src="/icon/sharp.svg" alt="SQL" className={visibleSections.includes("seccion-3") ? "icon active " : "icon" }  /> 
+                    <img src="/icon/sharp.svg" alt="c#" className={visibleSections.includes("seccion-3") ? "icon active " : "icon" }  /> 
                     <p>C#</p>
                     </div> 
 

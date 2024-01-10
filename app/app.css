@@ -194,7 +194,7 @@ nav ul li a:hover{
 .iconos div:nth-child(2) .icon,
 .iconos div:nth-child(6) .icon,
 .iconos div:nth-child(7) .icon,
-.iconos div:nth-child(11) .icon
+.iconos div:nth-child(11) .icon,
 .iconos div:nth-child(13) .icon
  {
   transform: translateX(-40px);                     
