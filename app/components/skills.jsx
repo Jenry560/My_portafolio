@@ -77,6 +77,11 @@ export default function Skills (){
                     <p>MySQL</p>
                     </div> 
 
+                    <div>     
+                    <img src="/icon/sharp.svg" alt="SQL" className={visibleSections.includes("seccion-3") ? "icon active " : "icon" }  /> 
+                    <p>C#</p>
+                    </div> 
+
          
                 </div>
                 </div>
