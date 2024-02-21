@@ -20,7 +20,7 @@ export default function Proyects() {
                 : "proyect-item"
             }
           >
-            <h1>App fit abs</h1>
+            <h1>App Fit Abs</h1>
             <Image
               width={300}
               height={200}
@@ -94,7 +94,7 @@ export default function Proyects() {
               }}
             >
               <p className="p_pro">
-                5 minute abs routine app with record and competitors.
+                5 minutes abs routine app with record and competitors.
               </p>
               <a href="https://abdominalesrutina.netlify.app" target="_blank">
                 <CiShare1 className="react_icon" />
@@ -201,7 +201,7 @@ export default function Proyects() {
                 : "proyect-item"
             }
           >
-            <h1>Calories nutrition page</h1>
+            <h1>Calories Nutrition Page</h1>
             <Image
               width={300}
               height={200}
@@ -269,7 +269,7 @@ export default function Proyects() {
                 : "proyect-item"
             }
           >
-            <h1 style={{ marginBottom: "30px" }}>Smartphone store Website</h1>
+            <h1 style={{ marginBottom: "30px" }}>Smartphone Store Website</h1>
             <Image
               width={300}
               height={200}

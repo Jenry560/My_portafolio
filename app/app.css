@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", serif;
+  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -60,7 +62,7 @@ nav ul li a:hover {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  animation: add 2s ease 0.8s forwards;
+  animation: add 2s ease 1.5s forwards;
 }
 
 .bubles {
@@ -96,12 +98,8 @@ nav ul li a:hover {
   text-align: center;
 }
 .portada_title h1 {
-  font-size: 35px;
+  font-size: 40px;
   width: 100%;
-}
-
-.svg {
-  width: 400px;
 }
 
 #seccion-2 {
@@ -128,16 +126,16 @@ nav ul li a:hover {
 .about_text {
   padding-right: 20px;
   width: 50%;
-  text-align: center;
+  text-align: justify;
   flex-direction: column;
   text-wrap: wrap;
 }
 .about_text h1 {
+  text-align: center;
   font-size: 40px;
 }
 .about_text p {
   font-size: 20px;
-  text-align: left;
 }
 .waves {
   z-index: -1;
@@ -307,7 +305,8 @@ Los elementos del centro  */
   opacity: 1;
 }
 .p_pro {
-  text-align: left;
+  text-align: justify;
+  padding-right: 7px;
   width: 250px;
 }
 .icon_pro {
@@ -390,6 +389,7 @@ Los elementos del centro  */
   border-radius: 0.2em;
 }
 .hp {
+  font-size: 35px;
   border: none;
 }
 .form__cta {
