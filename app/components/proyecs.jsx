@@ -187,7 +187,7 @@ export default function Proyects() {
                 App web to do post card about you want and others users can see
                 your posts you send and like it
               </p>
-              <a href="https://appcontable.netlify.app" target="_blank">
+              <a href="https://postcardr.azurewebsites.net" target="_blank">
                 <CiShare1 className="react_icon" />
               </a>
             </div>
