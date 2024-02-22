@@ -313,8 +313,7 @@ Los elementos del centro  */
   width: 20px;
 }
 .image1 {
-  width: 300px;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
   transition: transform 0.3s ease;
 }
 .image1:hover {

@@ -112,8 +112,8 @@ export default function Proyects() {
             <h1>Post Card</h1>
             <Image
               width={300}
-              height={190}
-              src="/img/postCard.png"
+              height={200}
+              src="/img/postCard3.png"
               alt="macbook prop abs"
               className="image1"
             />
@@ -395,8 +395,8 @@ export default function Proyects() {
             <h1>Accounting App</h1>
             <Image
               width={300}
-              height={190}
-              src="/img/contable.png"
+              height={200}
+              src="/img/contable1.png"
               alt="macbook prop abs"
               className="image1"
             />
@@ -411,7 +411,6 @@ export default function Proyects() {
                 />
                 <p>Node js</p>
               </div>
-
               <div className="icon_container" style={{ width: "70px" }}>
                 <Image
                   width={20}
@@ -423,7 +422,6 @@ export default function Proyects() {
                 />
                 <p>MongoDB</p>
               </div>
-
               <div className="icon_container">
                 <Image
                   width={20}
@@ -434,7 +432,6 @@ export default function Proyects() {
                 />
                 <p>React js</p>
               </div>
-
               <div className="icon_container">
                 <Image
                   width={20}
@@ -446,7 +443,6 @@ export default function Proyects() {
                 />
                 <p>Boostrap</p>
               </div>
-
               <div className="icon_container">
                 <Image
                   width={20}
