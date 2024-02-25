@@ -185,7 +185,7 @@ export default function Proyects() {
             >
               <p className="p_pro">
                 App web to do post card about you want and others users can see
-                your posts you send and like it
+                your posts you send and like it.
               </p>
               <a href="https://postcardr.azurewebsites.net" target="_blank">
                 <CiShare1 className="react_icon" />
@@ -254,7 +254,7 @@ export default function Proyects() {
             >
               <p className="p_pro">
                 App that gives y the nutritional information and recipes for the
-                foods you want
+                foods you want.
               </p>
               <a href="https://healthycalories.netlify.app" target="_blank">
                 <CiShare1 className="react_icon" />
@@ -377,7 +377,7 @@ export default function Proyects() {
               }}
             >
               <p className="p_pro">
-                Basic landing page of how to manage your finances
+                Basic landing page of how to manage your finances.
               </p>
               <a href=" https://manageyourfinace.netlify.app" target="_blank">
                 <CiShare1 className="react_icon" />
@@ -467,6 +467,78 @@ export default function Proyects() {
                 and expenses.
               </p>
               <a href="https://appcontable.netlify.app" target="_blank">
+                <CiShare1 className="react_icon" />
+              </a>
+            </div>
+          </div>
+          {/* proyecto 7  */}
+          <div
+            className={
+              visibleSections.includes("seccion-4")
+                ? "proyect-item active"
+                : "proyect-item"
+            }
+          >
+            <h1>SnapPic App</h1>
+            <Image
+              width={300}
+              height={200}
+              src="/img/snapPic.png"
+              alt="macbook prop abs"
+              className="image1"
+            />
+            <div className="tech">
+              <div className="icon_container" style={{ width: "68px" }}>
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/js.svg"
+                  alt="Node"
+                  className="icon_pro"
+                  style={{ width: "15px" }}
+                />
+                <p>Javascript</p>
+              </div>
+
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={17}
+                  src="/icon/firebase.svg"
+                  alt="Node"
+                  className="icon_pro"
+                  style={{ width: "15px" }}
+                />
+                <p>Firebase</p>
+              </div>
+
+              <div className="icon_container" style={{ width: "85px" }}>
+                <Image
+                  width={30}
+                  height={15}
+                  src="/icon/react_nativo.svg"
+                  alt="Node"
+                  className="icon_pro"
+                />
+                <p>React-Native</p>
+              </div>
+            </div>
+
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <p className="p_pro">
+                SnapPic is a clone of telegram for android where you can chat
+                with your friends on the topic you want.
+              </p>
+              <a
+                href="https://expo.dev///accounts/jenry560/projects/app-nativa/builds/3e1cce9d-ed96-4b65-af41-88ff780fcbcc"
+                target="_blank"
+              >
                 <CiShare1 className="react_icon" />
               </a>
             </div>
