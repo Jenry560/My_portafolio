@@ -9,7 +9,7 @@ export default function Portada() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Hi my name is Jenry Sanchez", "Junior-Developer"],
+      strings: ["Hi my name is Jenry Sanchez", "Software-Developer"],
       smartBackspace: true,
       typeSpeed: 75,
       startDelay: 100,
