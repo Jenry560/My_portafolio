@@ -180,7 +180,9 @@ nav ul li a:hover {
 .iconos div:nth-child(6) .icon,
 .iconos div:nth-child(7) .icon,
 .iconos div:nth-child(11) .icon,
-.iconos div:nth-child(13) .icon {
+.iconos div:nth-child(13) .icon,
+.iconos div:nth-child(16) .icon,
+.iconos div:nth-child(17) .icon {
   transform: translateX(-40px);
   transition: opacity 2s, transform 2s ease-in-out;
   opacity: 0;
@@ -190,7 +192,10 @@ nav ul li a:hover {
 .iconos div:nth-child(2) .icon.active,
 .iconos div:nth-child(6) .icon.active,
 .iconos div:nth-child(7) .icon.active,
-.iconos div:nth-child(11) .icon.active {
+.iconos div:nth-child(11) .icon.active,
+.iconos div:nth-child(13) .icon.active,
+.iconos div:nth-child(16) .icon.active,
+.iconos div:nth-child(17) .icon.active {
   opacity: 1;
   transform: translateX(0);
 }
@@ -202,7 +207,9 @@ nav ul li a:hover {
 .iconos div:nth-child(10) .icon,
 .iconos div:nth-child(12) .icon,
 .iconos div:nth-child(14) .icon,
-.iconos div:nth-child(15) .icon {
+.iconos div:nth-child(15) .icon,
+.iconos div:nth-child(19) .icon,
+.iconos div:nth-child(20) .icon  {
   transform: translateX(40px);
   transition: opacity 2s, transform 2s ease-in-out;
   opacity: 0;
@@ -214,7 +221,9 @@ nav ul li a:hover {
 .iconos div:nth-child(10) .icon.active,
 .iconos div:nth-child(12) .icon.active,
 .iconos div:nth-child(14) .icon.active,
-.iconos div:nth-child(15) .icon.active {
+.iconos div:nth-child(15) .icon.active,
+.iconos div:nth-child(19) .icon.active,
+.iconos div:nth-child(20) .icon.active {
   opacity: 1;
   transform: translateX(0);
 }
@@ -224,7 +233,9 @@ Los elementos del centro  */
 
 .iconos div:nth-child(3) .icon,
 .iconos div:nth-child(8) .icon,
-.iconos div:nth-child(13) .icon {
+.iconos div:nth-child(13) .icon, 
+.iconos div:nth-child(18) .icon,
+.iconos div:nth-child(21) .icon {
   transform: translateY(40px);
   transition: opacity 2s, transform 2s ease-in-out;
   opacity: 0;
@@ -232,7 +243,9 @@ Los elementos del centro  */
 
 .iconos div:nth-child(3) .icon.active,
 .iconos div:nth-child(8) .icon.active,
-.iconos div:nth-child(13) .icon.active {
+.iconos div:nth-child(13) .icon.active,
+.iconos div:nth-child(18) .icon.active,
+.iconos div:nth-child(21) .icon.active {
   opacity: 1;
   transform: translateY(0);
 }

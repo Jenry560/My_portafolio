@@ -99,7 +99,43 @@ export default function Skills() {
             <ImageSkill
               src={"/icon/net.svg"}
               alt={"net"}
-              texto={".Net"}
+              texto={".NET"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/angular.svg"}
+              alt={"angular"}
+              texto={"Angular"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/flutter.svg"}
+              alt={"flutter"}
+              texto={"Flutter"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/vue.svg"}
+              alt={"vue"}
+              texto={"Vue.js"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/postgresql-icon.svg"}
+              alt={"postgresql"}
+              texto={"PostgreSQL"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/django.svg"}
+              alt={"django"}
+              texto={"Django"}
+              visibleSections={visibleSections}
+            />
+            <ImageSkill
+              src={"/icon/oracle.svg"}
+              alt={"oracle"}
+              texto={"Oracle"}
               visibleSections={visibleSections}
             />
           </div>

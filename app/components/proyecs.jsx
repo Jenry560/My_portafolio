@@ -543,6 +543,154 @@ export default function Proyects() {
               </a>
             </div>
           </div>
+          {/* Study Sage Project */}
+          <div
+            className={
+              visibleSections.includes("seccion-4")
+                ? "proyect-item active"
+                : "proyect-item"
+            }
+          >
+            <h1>Study Sage</h1>
+            <Image
+              width={300}
+              height={200}
+              src="/img/study.png"
+              alt="Study Sage desktop app"
+              className="image1"
+            />
+            <div className="tech">
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/python.svg"
+                  alt="Python"
+                  className="icon_pro"
+                />
+                <p>Python</p>
+              </div>
+
+              <div className="icon_container">
+                <Image
+                  width={17}
+                  height={17}
+                  src="/icon/django.svg"
+                  alt="Django"
+                  className="icon_pro"
+                />
+                <p>Django</p>
+              </div>
+
+              
+
+              <div className="icon_container" style={{ width: "90px" }}>
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/qt.svg"
+                  alt="Qt Designer"
+                  className="icon_pro"
+                />
+                <p>Qt Designer</p>
+              </div>
+              <div className="icon_container" style={{ width: "90px" }}>
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/sqlserver.svg"
+                  alt="SQL Server"
+                  className="icon_pro"
+                />
+                <p>SQL Server</p>
+              </div>
+            </div>
+
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <p className="p_pro">
+                Desktop application designed for student productivity and task management.
+              </p>
+              <a href="#" target="_blank">
+                <CiShare1 className="react_icon" />
+              </a>
+            </div>
+          </div>
+
+          {/* Digeset Project */}
+          <div
+            className={
+              visibleSections.includes("seccion-4")
+                ? "proyect-item active"
+                : "proyect-item"
+            }
+          >
+            <h1>Digeset</h1>
+            <Image
+              width={300}
+              height={200}
+              src="/img/digeset.png"
+              alt="Digeset project"
+              className="image1"
+            />
+            <div className="tech">
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/angular.svg"
+                  alt="Angular"
+                  className="icon_pro"
+                />
+                <p>Angular</p>
+              </div>
+
+           
+
+
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/net.svg"
+                  alt="c#"
+                  className="icon_pro"
+                />
+                <p>.Net</p>
+              </div>
+
+              <div className="icon_container" style={{ width: "90px" }}>
+                <Image
+                  width={20}
+                  height={18}
+                  src="/icon/postgresql-icon.svg"
+                  alt="PostgreSQL"
+                  className="icon_pro"
+                />
+                <p>PostgreSQL</p>
+              </div>
+            </div>
+
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <p className="p_pro">
+                System for managing and tracking fines for the Digeset company.
+              </p>
+              <a href="https://digeset-proyecto.vercel.app/auth/login" target="_blank">
+                <CiShare1 className="react_icon" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
