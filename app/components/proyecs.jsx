@@ -684,7 +684,10 @@ export default function Proyects() {
                 Desktop application designed for student productivity and task
                 management.
               </p>
-              <a href="#" target="_blank">
+              <a
+                href="https://drive.google.com/file/d/1CBURr3lggFPDO2ljVkb1pdm1j3_NB8tj/view?usp=drive_link"
+                target="_blank"
+              >
                 <CiShare1 className="react_icon" />
               </a>
             </div>
