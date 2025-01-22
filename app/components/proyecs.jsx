@@ -12,6 +12,75 @@ export default function Proyects() {
       <div className="container">
         <h2 className="title_proyect">Proyects</h2>
         <div className="proyect">
+          {/* Digeset Project */}
+          <div
+            className={
+              visibleSections.includes("seccion-4")
+                ? "proyect-item active"
+                : "proyect-item"
+            }
+          >
+            <h1>Digeset</h1>
+            <Image
+              width={300}
+              height={200}
+              src="/img/digeset.png"
+              alt="Digeset project"
+              className="image1"
+            />
+            <div className="tech">
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/angular.svg"
+                  alt="Angular"
+                  className="icon_pro"
+                />
+                <p>Angular</p>
+              </div>
+
+              <div className="icon_container">
+                <Image
+                  width={20}
+                  height={20}
+                  src="/icon/net.svg"
+                  alt="c#"
+                  className="icon_pro"
+                />
+                <p>.Net</p>
+              </div>
+
+              <div className="icon_container" style={{ width: "90px" }}>
+                <Image
+                  width={20}
+                  height={18}
+                  src="/icon/postgresql-icon.svg"
+                  alt="PostgreSQL"
+                  className="icon_pro"
+                />
+                <p>PostgreSQL</p>
+              </div>
+            </div>
+
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <p className="p_pro">
+                System for managing and tracking fines for the Digeset company.
+              </p>
+              <a
+                href="https://digeset-proyecto.vercel.app/auth/login"
+                target="_blank"
+              >
+                <CiShare1 className="react_icon" />
+              </a>
+            </div>
+          </div>
           {/* proyecto 1 */}
           <div
             className={
@@ -582,8 +651,6 @@ export default function Proyects() {
                 <p>Django</p>
               </div>
 
-              
-
               <div className="icon_container" style={{ width: "90px" }}>
                 <Image
                   width={20}
@@ -614,79 +681,10 @@ export default function Proyects() {
               }}
             >
               <p className="p_pro">
-                Desktop application designed for student productivity and task management.
+                Desktop application designed for student productivity and task
+                management.
               </p>
               <a href="#" target="_blank">
-                <CiShare1 className="react_icon" />
-              </a>
-            </div>
-          </div>
-
-          {/* Digeset Project */}
-          <div
-            className={
-              visibleSections.includes("seccion-4")
-                ? "proyect-item active"
-                : "proyect-item"
-            }
-          >
-            <h1>Digeset</h1>
-            <Image
-              width={300}
-              height={200}
-              src="/img/digeset.png"
-              alt="Digeset project"
-              className="image1"
-            />
-            <div className="tech">
-              <div className="icon_container">
-                <Image
-                  width={20}
-                  height={20}
-                  src="/icon/angular.svg"
-                  alt="Angular"
-                  className="icon_pro"
-                />
-                <p>Angular</p>
-              </div>
-
-           
-
-
-              <div className="icon_container">
-                <Image
-                  width={20}
-                  height={20}
-                  src="/icon/net.svg"
-                  alt="c#"
-                  className="icon_pro"
-                />
-                <p>.Net</p>
-              </div>
-
-              <div className="icon_container" style={{ width: "90px" }}>
-                <Image
-                  width={20}
-                  height={18}
-                  src="/icon/postgresql-icon.svg"
-                  alt="PostgreSQL"
-                  className="icon_pro"
-                />
-                <p>PostgreSQL</p>
-              </div>
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <p className="p_pro">
-                System for managing and tracking fines for the Digeset company.
-              </p>
-              <a href="https://digeset-proyecto.vercel.app/auth/login" target="_blank">
                 <CiShare1 className="react_icon" />
               </a>
             </div>
