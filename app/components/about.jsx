@@ -33,7 +33,7 @@ export default function About() {
               <p>
                 Passionate Full-stack Developer and aspiring Software
                 Development Technician with a dynamic background encompassing
-                over 2 years of thriving freelance ventures. A perpetual learner
+                over 3 years of thriving freelance ventures. A perpetual learner
                 committed to staying at the forefront of technology trends.
                 Eagerly pursuing exciting job opportunities to contribute
                 innovative solutions and elevate projects to new heights.
